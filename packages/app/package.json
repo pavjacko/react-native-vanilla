@@ -35,6 +35,7 @@
         "start": "concurrently \"rnv start -p ios\" \"rnv start -p android\" \"rnv start -p androidtv\" \"rnv start -p tvos\" \"rnv start -p macos\" \"rnv start -p web\" \"rnv start -p tizen\" \"rnv start -p webos\""
     },
     "dependencies": {
+        "@babel/runtime": "^7.14.6",
         "@lightningjs/sdk": "3.0.0",
         "@noriginmedia/react-spatial-navigation": "2.12.1",
         "@ovaeasy/react-native-vector-icons": "7.0.4",
@@ -56,7 +57,7 @@
         "react": "16.13.1",
         "react-art": "16.13.1",
         "react-dom": "16.13.1",
-        "react-native": "0.61.2",
+        "react-native": "0.63.4",
         "react-native-gesture-handler": "1.4.1",
         "react-native-google-cast": "github:hosek/react-native-google-cast#sdk4.4.5",
         "react-native-reanimated": "1.0.0-alpha.12",
@@ -64,6 +65,7 @@
         "react-native-safe-area-view": "0.14.5",
         "react-native-screens": "2.2.0",
         "react-native-tab-view": "2.13.0",
+        "react-native-tvos": "npm:react-native-tvos@0.63.4-0",
         "react-native-vector-icons": "7.1.0",
         "react-native-web": "0.13.12",
         "react-native-web-image-loader": "0.0.5",
@@ -74,6 +76,7 @@
         "@rnv/engine-rn": "~0.32.0-RC",
         "@rnv/engine-rn-electron": "~0.32.0-RC",
         "@rnv/engine-rn-next": "~0.32.0-RC",
+        "@rnv/engine-rn-tvos": "~0.32.0-RC",
         "@rnv/engine-rn-web": "~0.32.0-RC",
         "@rnv/integration-docker": "0.1.0-alpha.0",
         "@rnv/integration-vercel": "0.2.0-alpha.0",

@@ -67,12 +67,6 @@ export default {
             extenstions: generateEngineExtensions([
                 'androidwear.watch', 'watch', 'androidwear', 'android', 'watch.native', 'native'
             ], CNF)
-        },
-        tvos: {
-            defaultPort: 8089,
-            extenstions: generateEngineExtensions([
-                'tvos.tv', 'tv', 'tvos', 'ios', 'tv.native', 'native'
-            ], CNF)
         }
     }
 

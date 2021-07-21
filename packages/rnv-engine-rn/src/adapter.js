@@ -17,6 +17,15 @@ export const withRNV = (config) => {
 
     const cnf = {
         ...config,
+        transformer: {
+            getTransformOptions: async () => ({
+                transform: {
+                    // this defeats the RCTDeviceEventEmitter is not a registered callable module
+                    inlineRequires: true,
+                },
+            }),
+            ...config?.transformer || {},
+        },
         resolver: {
             blacklistRE: blacklist([
                 /platformBuilds\/.*/,
